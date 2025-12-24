@@ -29,6 +29,12 @@ export const AddDelButton: React.FC<AddDelButtonProps> = (
                 borderRadius: 2,
                 textTransform: 'none',
                 fontWeight: 600,
+                width: {
+                    xs: '120px',
+                    sm: '110px',
+                    md: '130px',
+                    lg: '130px'
+                }
             }}
         >
             {isAdded ? 'Убрать' : 'Добавить'}
